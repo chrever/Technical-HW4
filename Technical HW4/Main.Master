@@ -11,6 +11,7 @@
 
     </asp:ContentPlaceHolder>
      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+     <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" /> 
        <script src="js/bootstrap.js"></script>
                 <script src="js/bootstrap.min.js"></script>
 
@@ -20,12 +21,12 @@
                 <script src="js/bootstrap.min.js"></script>
     <form id="form1" runat="server">
         <div>
-            <h1>Master Page Begins Here</h1>
+            <h1>Automated Pet Meds Delivery System</h1>
             <div style="display:flex; flex-direction:row;justify-content:space-around;width:25%;">
                 <a href="Default.aspx"> Vet Page</a>
                  <a href="Page2.aspx"> Dispensing Page</a>
                  <a href="Page3.aspx"> Customer Service Page</a>
-                <a href="Page4.aspx"> Customer Page</a>
+           
                 </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 
